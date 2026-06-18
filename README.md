@@ -1,49 +1,132 @@
-<div align="center">
-
 # Sandeep Alluru
 
-**Building open-source infrastructure for the agentic AI era**
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
-[![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=flat&logo=pypi&logoColor=white)](https://pypi.org/user/sandeep-alluru)
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat)](https://opensource.org/licenses/MIT)
-
-</div>
-
----
-
-I build primitives that autonomous agents are missing — diff engines, staleness monitors, attestation layers, and state CRDTs. Each project is a focused Python library: installable in one line, runnable in five minutes, MIT licensed.
+<p align="center"><sub><em>
+The interesting thing about being early to a paradigm shift is you get to name the primitives.<br />
+I build the missing infrastructure layer for autonomous agents — the things every serious agent stack will eventually need.<br />
+Not frameworks. Not wrappers. Substrate.<br />
+Diff engines that find the exact decision fork between two runs. Staleness monitors that alert when facts agents relied on have changed.<br />
+Attestation layers that prove what an agent actually did. Belief-repair systems that catch when NPCs contradict themselves.<br />
+Twelve focused Python libraries. One thesis: the agentic era needs better foundations.
+</em></sub></p>
 
 ---
 
-## Agentic AI Infrastructure
+## Now
 
-| Project | What it does | Install |
-|---------|-------------|---------|
-| [**agentdelta**](https://github.com/sandeep-alluru/agentdelta) | Semantic diff engine — find the exact decision fork between two agent runs | `pip install agentdelta` |
-| [**foghorn**](https://github.com/sandeep-alluru/foghorn) | Decision staleness alerts — warns when a fact an agent relied on has changed | `pip install foghorn` |
-| [**groundcrew**](https://github.com/sandeep-alluru/groundcrew) | Deterministic state oracle and semantic action codec for computer-use agents | `pip install groundcrew` |
-| [**notarize**](https://github.com/sandeep-alluru/notarize) | Canonical trace format and tamper-proof verifier for agent execution attestation | `pip install notarize` |
-| [**clickproof**](https://github.com/sandeep-alluru/clickproof) | Persistent GUI behavioral facts — what the agent saw and clicked, content-addressed | `pip install clickproof` |
-| [**polaroid**](https://github.com/sandeep-alluru/polaroid) | Embeddable CRDT scene graph — shared spatial memory for embodied AI agents | `pip install polaroid` |
-
-## Multi-Agent & Game AI
-
-| Project | What it does | Install |
-|---------|-------------|---------|
-| [**humanproof**](https://github.com/sandeep-alluru/humanproof) | Motor-noise fingerprinting — distinguish human from bot by mouse trajectory alone | `pip install humanproof` |
-| [**agentcrdt**](https://github.com/sandeep-alluru/agentcrdt) | Semantic-causal CRDT — conflict-free agent-mutable world state with causal ordering | `pip install agentcrdt` |
-| [**rulegraph**](https://github.com/sandeep-alluru/rulegraph) | Natural-language rulebook compiler — parse game rules into executable logic graphs | `pip install rulegraph` |
-| [**balancelab**](https://github.com/sandeep-alluru/balancelab) | Economy red-team — Bellman-Ford arbitrage exploit detection for game economies | `pip install balancelab` |
-| [**normsync**](https://github.com/sandeep-alluru/normsync) | World constitution engine — norm-governed behavior contracts for multi-agent games | `pip install normsync` |
-| [**worldoracle**](https://github.com/sandeep-alluru/worldoracle) | NPC belief repair — contradiction detection and resolution in NPC belief states | `pip install worldoracle` |
+**Creator of 12 open-source Python libraries** covering the full agentic AI infrastructure stack — agent observability, state management, execution attestation, multi-agent coordination, game AI, and economy analysis. All MIT-licensed, all on PyPI, all with CLI + REST API + MCP server interfaces.
 
 ---
 
-<div align="center">
+## Open Source
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sandeep-alluru&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true)](https://github.com/sandeep-alluru)
-&nbsp;&nbsp;
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sandeep-alluru&layout=compact&theme=dark&hide_border=true)](https://github.com/sandeep-alluru)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/agentdelta"><b>agentdelta</b></a><br />
+      <sub>Semantic diff engine — find the exact decision fork between two agent runs</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=agent%20diff%20%7C%20behavioral%20testing&labelColor=0ea5e9&color=111827" alt="focus agent diff behavioral testing" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/agentdelta?style=flat-square&label=stars&color=f59e0b" alt="agentdelta stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/agentdelta?style=flat-square&label=forks&color=60a5fa" alt="agentdelta forks" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/foghorn"><b>foghorn</b></a><br />
+      <sub>Decision staleness alerts — warns when a fact an agent relied on has changed</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=staleness%20%7C%20agent%20memory&labelColor=0ea5e9&color=111827" alt="focus staleness agent memory" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/foghorn?style=flat-square&label=stars&color=f59e0b" alt="foghorn stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/foghorn?style=flat-square&label=forks&color=60a5fa" alt="foghorn forks" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/groundcrew"><b>groundcrew</b></a><br />
+      <sub>Deterministic state oracle and semantic action codec for computer-use agents</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=state%20oracle%20%7C%20computer-use&labelColor=a855f7&color=111827" alt="focus state oracle computer-use" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/groundcrew?style=flat-square&label=stars&color=f59e0b" alt="groundcrew stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/groundcrew?style=flat-square&label=forks&color=60a5fa" alt="groundcrew forks" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/notarize"><b>notarize</b></a><br />
+      <sub>Canonical trace format and tamper-proof verifier for agent execution attestation</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=attestation%20%7C%20trace%20verification&labelColor=14b8a6&color=111827" alt="focus attestation trace verification" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/notarize?style=flat-square&label=stars&color=f59e0b" alt="notarize stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/notarize?style=flat-square&label=forks&color=60a5fa" alt="notarize forks" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/clickproof"><b>clickproof</b></a><br />
+      <sub>Persistent GUI behavioral facts — what the agent saw and clicked, content-addressed</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=gui%20facts%20%7C%20computer-use&labelColor=14b8a6&color=111827" alt="focus gui facts computer-use" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/clickproof?style=flat-square&label=stars&color=f59e0b" alt="clickproof stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/clickproof?style=flat-square&label=forks&color=60a5fa" alt="clickproof forks" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/polaroid"><b>polaroid</b></a><br />
+      <sub>Embeddable CRDT scene graph — shared spatial memory for embodied AI agents</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=crdt%20%7C%20scene%20graph&labelColor=a855f7&color=111827" alt="focus crdt scene graph" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/polaroid?style=flat-square&label=stars&color=f59e0b" alt="polaroid stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/polaroid?style=flat-square&label=forks&color=60a5fa" alt="polaroid forks" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/humanproof"><b>humanproof</b></a><br />
+      <sub>Motor-noise fingerprinting — distinguish human from bot by mouse trajectory alone</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=bot%20detection%20%7C%20motor%20fingerprint&labelColor=ef4444&color=111827" alt="focus bot detection motor fingerprint" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/humanproof?style=flat-square&label=stars&color=f59e0b" alt="humanproof stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/humanproof?style=flat-square&label=forks&color=60a5fa" alt="humanproof forks" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/agentcrdt"><b>agentcrdt</b></a><br />
+      <sub>Semantic-causal CRDT — conflict-free agent-mutable world state with causal ordering</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=crdt%20%7C%20multi-agent&labelColor=22c55e&color=111827" alt="focus crdt multi-agent" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/agentcrdt?style=flat-square&label=stars&color=f59e0b" alt="agentcrdt stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/agentcrdt?style=flat-square&label=forks&color=60a5fa" alt="agentcrdt forks" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/rulegraph"><b>rulegraph</b></a><br />
+      <sub>Natural-language rulebook compiler — parse game rules into executable logic graphs</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=game%20rules%20%7C%20nlp&labelColor=f59e0b&color=111827" alt="focus game rules nlp" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/rulegraph?style=flat-square&label=stars&color=f59e0b" alt="rulegraph stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/rulegraph?style=flat-square&label=forks&color=60a5fa" alt="rulegraph forks" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/balancelab"><b>balancelab</b></a><br />
+      <sub>Economy red-team — Bellman-Ford arbitrage exploit detection for game economies</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=economy%20%7C%20exploit%20detection&labelColor=f59e0b&color=111827" alt="focus economy exploit detection" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/balancelab?style=flat-square&label=stars&color=f59e0b" alt="balancelab stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/balancelab?style=flat-square&label=forks&color=60a5fa" alt="balancelab forks" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/normsync"><b>normsync</b></a><br />
+      <sub>World constitution engine — norm-governed behavior contracts for multi-agent games</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=norms%20%7C%20multi-agent&labelColor=22c55e&color=111827" alt="focus norms multi-agent" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/normsync?style=flat-square&label=stars&color=f59e0b" alt="normsync stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/normsync?style=flat-square&label=forks&color=60a5fa" alt="normsync forks" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/sandeep-alluru/worldoracle"><b>worldoracle</b></a><br />
+      <sub>NPC contradiction detector and belief repair for game worlds</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=npc%20ai%20%7C%20belief%20repair&labelColor=f59e0b&color=111827" alt="focus npc ai belief repair" /><br />
+      <img src="https://img.shields.io/github/stars/sandeep-alluru/worldoracle?style=flat-square&label=stars&color=f59e0b" alt="worldoracle stars" />
+      <img src="https://img.shields.io/github/forks/sandeep-alluru/worldoracle?style=flat-square&label=forks&color=60a5fa" alt="worldoracle forks" />
+    </td>
+  </tr>
+</table>
 
-</div>
+---
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=sandeep-alluru&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=adbac7&dates=adbac7&currStreakNum=adbac7&sideNums=adbac7" alt="GitHub streak stats" height="165" />
+</p>
+
+---
+
+<p align="center">
+  <a href="https://x.com/sandeep_alluru">X</a> ·
+  <a href="https://linkedin.com/in/sandeep-alluru">LinkedIn</a>
+</p>
