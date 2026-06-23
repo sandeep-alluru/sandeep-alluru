@@ -1,4 +1,7 @@
+<p align="center">
 # Sandeep Alluru
+</p>
+
 
 <p align="center"><sub><em>
 I got tired of watching AI agents make the same mistake twice with no way to know why.<br />
