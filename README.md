@@ -22,8 +22,7 @@ One sharp tool at a time.
 
 **Building 12 open-source Python libraries** for the full agentic AI infrastructure stack — observability, attestation, computer-use primitives, multi-agent coordination, and game AI. All MIT-licensed · Austin, TX.
 
-**Available for consulting** — agentic AI infrastructure, MCP server design, agent observability. DM [@sandeep_alluru](https://x.com/sandeep_alluru)
-
+**Open to partnerships and select projects** — Building agentic AI infrastructure, MCP server design, agent observability. DM [@sandeep_alluru](https://x.com/sandeep_alluru)
 ---
 
 ## Writing
