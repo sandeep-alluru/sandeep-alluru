@@ -1,6 +1,3 @@
-<p align="center">
-# Sandeep Alluru
-</p>
 
 
 <p align="center"><sub><em>
