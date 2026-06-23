@@ -1,9 +1,5 @@
 # Sandeep Alluru
 
-<p align="center">
-  <img width="400" alt="Sandeep Alluru" src="https://github.com/sandeep-alluru.png" />
-</p>
-
 <p align="center"><sub><em>
 I got tired of watching AI agents make the same mistake twice with no way to know why.<br />
 So I built a diff engine. Then I needed to know when the facts it relied on had gone stale. So I built a staleness monitor.<br />
