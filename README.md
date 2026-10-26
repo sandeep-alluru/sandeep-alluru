@@ -49,6 +49,6 @@ Remote control for xAI's Grok Build CLI — drive your terminal coding agent fro
 
 ## In the workshop
 
-Shipping next: **Keel**, an accelerated video-diffusion engine that runs on a single DGX Spark, and **Tessen**, local LLM serving that sizes a model to your machine and keeps a receipt for every run — 54.0 tokens/sec single-stream, measured.
+Shipping next: **Keel H3 Turbo**, an accelerated video-diffusion engine that runs on a single DGX Spark, and **Tessen**, local LLM serving that sizes a model to your machine and keeps a receipt for every run — 54.0 tokens/sec single-stream, measured.
 
 The longer arc: ten small functional models by the end of 2027 — cybersecurity, credit risk, credit fraud, pharmacogenomics, healthcare — and the inference engine that runs them on modest hardware.
